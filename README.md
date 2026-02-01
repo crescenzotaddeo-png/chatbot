@@ -1,8 +1,8 @@
 # Paper Tutor — Chatbot AI locale (Ollama) collegato a un DOCX
 
 Questo progetto è una web app in Python (Streamlit) che permette di **conversare** con un documento DOCX.  
-Il sistema usa un approccio **RAG (Retrieval-Augmented Generation)**: recupera gli estratti più pertinenti dal documento
-e chiede a un modello LLM **locale** (via Ollama) di rispondere **solo** usando quei contenuti.
+Il sistema usa un approccio **RAG (Retrieval-Augmented Generation)**: recupera gli elementi più pertinenti alla richiesta dell'utente dal documento
+e chiede ad un modello LLM **locale** (via Ollama) di rispondere **solo** utilizzando i contenuti del documento.
 
 ## Funzionalità principali
 - Caricamento di un documento **.docx**
@@ -33,3 +33,4 @@ ollama pull qwen2.5:3b
 ```bash
 streamlit run app.py
 ```
+
